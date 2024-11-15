@@ -62,6 +62,8 @@ def getExtOrIntegerDefault(name) {
 }
 
 android {
+    namespace 'com.giphy.giphy_flutter_sdk'
+
     if (project.android.hasProperty("namespace")) {
         namespace 'com.giphyfluttersdk'
     }
